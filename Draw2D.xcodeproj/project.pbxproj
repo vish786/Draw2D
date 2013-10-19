@@ -18,6 +18,10 @@
 		DF9FB85618119A5400F93E95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9FB85518119A5400F93E95 /* Default-568h@2x.png */; };
 		DF9FB85918119A5400F93E95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9FB85718119A5400F93E95 /* MainStoryboard.storyboard */; };
 		DF9FB85C18119A5400F93E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9FB85B18119A5400F93E95 /* ViewController.m */; };
+		DF9FB86418119A7E00F93E95 /* Draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9FB86318119A7E00F93E95 /* Draw2D.m */; };
+		DF9FB86618119F8600F93E95 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9FB86518119F8600F93E95 /* QuartzCore.framework */; };
+		DF9FB8681811B78600F93E95 /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9FB8671811B78600F93E95 /* steve.jpg */; };
+		DF9FB86A1811B86E00F93E95 /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9FB8691811B86E00F93E95 /* Apple.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		DF9FB85818119A5400F93E95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DF9FB85A18119A5400F93E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DF9FB85B18119A5400F93E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF9FB86218119A7E00F93E95 /* Draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw2D.h; sourceTree = SOURCE_ROOT; };
+		DF9FB86318119A7E00F93E95 /* Draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw2D.m; sourceTree = SOURCE_ROOT; };
+		DF9FB86518119F8600F93E95 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF9FB8671811B78600F93E95 /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve.jpg; sourceTree = "<group>"; };
+		DF9FB8691811B86E00F93E95 /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9FB86618119F8600F93E95 /* QuartzCore.framework in Frameworks */,
 				DF9FB84018119A5400F93E95 /* UIKit.framework in Frameworks */,
 				DF9FB84218119A5400F93E95 /* Foundation.framework in Frameworks */,
 				DF9FB84418119A5400F93E95 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +66,7 @@
 		DF9FB83318119A5300F93E95 = {
 			isa = PBXGroup;
 			children = (
+				DF9FB86518119F8600F93E95 /* QuartzCore.framework */,
 				DF9FB84518119A5400F93E95 /* Draw2D */,
 				DF9FB83E18119A5400F93E95 /* Frameworks */,
 				DF9FB83D18119A5400F93E95 /* Products */,
@@ -83,11 +94,15 @@
 		DF9FB84518119A5400F93E95 /* Draw2D */ = {
 			isa = PBXGroup;
 			children = (
+				DF9FB8691811B86E00F93E95 /* Apple.jpg */,
+				DF9FB8671811B78600F93E95 /* steve.jpg */,
 				DF9FB84E18119A5400F93E95 /* AppDelegate.h */,
 				DF9FB84F18119A5400F93E95 /* AppDelegate.m */,
 				DF9FB85718119A5400F93E95 /* MainStoryboard.storyboard */,
 				DF9FB85A18119A5400F93E95 /* ViewController.h */,
 				DF9FB85B18119A5400F93E95 /* ViewController.m */,
+				DF9FB86218119A7E00F93E95 /* Draw2D.h */,
+				DF9FB86318119A7E00F93E95 /* Draw2D.m */,
 				DF9FB84618119A5400F93E95 /* Supporting Files */,
 			);
 			path = Draw2D;
@@ -163,6 +178,8 @@
 				DF9FB85418119A5400F93E95 /* Default@2x.png in Resources */,
 				DF9FB85618119A5400F93E95 /* Default-568h@2x.png in Resources */,
 				DF9FB85918119A5400F93E95 /* MainStoryboard.storyboard in Resources */,
+				DF9FB8681811B78600F93E95 /* steve.jpg in Resources */,
+				DF9FB86A1811B86E00F93E95 /* Apple.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				DF9FB84C18119A5400F93E95 /* main.m in Sources */,
 				DF9FB85018119A5400F93E95 /* AppDelegate.m in Sources */,
 				DF9FB85C18119A5400F93E95 /* ViewController.m in Sources */,
+				DF9FB86418119A7E00F93E95 /* Draw2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
